@@ -16,7 +16,7 @@ Aplicación web full-stack construida con **Spring Boot 3 / Java 21** en el back
 | **Asignatura** | Desarrollo de aplicaciones web |
 | **Unidad** | Unidad 3 — Desarrollo de Back-End con Spring y Java |
 | **Recurso** | Taller: Desarrollo de una aplicación web en React y Spring |
-| **Periodo académico** | *(completar: por ejemplo, Abril – Agosto 2026)* |
+
 
 ## 2. Información de la empresa
 
