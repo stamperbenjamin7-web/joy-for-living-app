@@ -1,0 +1,19 @@
+# Perfil de produccion (Railway): PostgreSQL administrado.
+# Railway inyecta DATABASE_URL, PGUSER y PGPASSWORD como variables de entorno.
+spring:
+  datasource:
+    url: ${JDBC_DATABASE_URL:${DATABASE_URL}}
+    username: ${PGUSER:${DB_USER:}}
+    password: ${PGPASSWORD:${DB_PASSWORD:}}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  level:
+    root: INFO
