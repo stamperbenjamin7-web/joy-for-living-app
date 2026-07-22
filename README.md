@@ -326,6 +326,4 @@ joy-for-living-app/
 
 ---
 
-## 12. Licencia
 
-Proyecto académico desarrollado para la Universidad Técnica Particular de Loja. Uso educativo.
